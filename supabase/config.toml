@@ -1,0 +1,5 @@
+project_id = "ymauqmpqersjfmovlvvk"
+
+# The function checks the configured public API key itself and validates all write requests.
+[functions.arcade-api]
+verify_jwt = false
