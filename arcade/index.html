@@ -86,7 +86,7 @@ html[dir=rtl] .game-card{text-align:right}html[dir=rtl] .touch-controls{directio
 .comment-card-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .comment-author{color:var(--mint);font-size:.83rem;font-weight:850}
 .comment-date{color:var(--muted);font-size:.69rem}
-.comment-text{color:#d5deea;font-size:.86rem;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;margin:11px 0 0}
+.comment-text{color:#d5deea;font-size:.86rem;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;margin:11px 0 0;unicode-bidi:plaintext;text-align:start}
 html[dir=rtl] .comment-compose,html[dir=rtl] .comments-list-panel{text-align:right}
 html[dir=rtl] .comment-form-meta,html[dir=rtl] .comments-list-head,html[dir=rtl] .comment-card-head{direction:rtl}
 html[dir=rtl] .comments-intro:after{right:auto;left:13px}
@@ -130,8 +130,8 @@ body{min-height:100vh;display:flex;flex-direction:column}main{flex:1}footer{marg
         <div class="comment-compose">
           <form id="commentForm">
             <div class="comment-identity" id="commentIdentity" hidden><span>Posting as</span><strong id="commentIdentityName"></strong><button type="button" id="changeCommentName">Change name</button></div>
-            <div class="comment-name-row" id="commentNameRow"><label for="commentName">Your name or nickname</label><input id="commentName" name="display_name" type="text" minlength="2" maxlength="18" autocomplete="nickname" placeholder="How should we call you?" required></div>
-            <div><label for="commentMessage">Your message</label><textarea id="commentMessage" name="message" maxlength="1000" rows="4" placeholder="Write a note... (up to 100 words)" required></textarea></div>
+            <div class="comment-name-row" id="commentNameRow"><label for="commentName">Your name or nickname</label><input id="commentName" name="display_name" dir="auto" type="text" minlength="2" maxlength="18" autocomplete="nickname" placeholder="How should we call you?" required></div>
+            <div><label for="commentMessage">Your message</label><textarea id="commentMessage" name="message" dir="auto" maxlength="1000" rows="4" placeholder="Write a note... (up to 100 words)" required></textarea></div>
             <div class="comment-form-meta"><span id="commentCounter">0 / 100 words</span><span>Up to 1,000 characters</span></div>
             <button class="btn primary" id="submitComment" type="submit">Post comment ↗</button>
             <p class="help comment-privacy">Your note is public. Your nickname stays saved in this browser for next time.</p>
