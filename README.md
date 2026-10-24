@@ -49,7 +49,7 @@
 │   ├── config.toml
 │   └── functions/arcade-api/
 │       └── index.ts              # تابع API سمت سرور
-└── docs/folioforge/prompts/      # نمونه‌پرامپت‌ها و چک‌لیست بازبینی
+└── README.fa.md                   # راهنمای فارسی
 ```
 
 ### فناوری‌ها
@@ -108,7 +108,7 @@ npx supabase functions deploy arcade-api
 
 ### استفادهٔ مجدد از این پروژه
 
-این مخزن می‌تواند نقطهٔ شروعی برای ساخت رزومهٔ شخصی، صفحهٔ معرفی محصول یا وب‌سایت ایستا باشد. نمونه‌پرامپت‌ها و چک‌لیست‌های بازبینی در [docs/folioforge/prompts](./docs/folioforge/prompts/) قرار دارند.
+این مخزن می‌تواند نقطهٔ شروعی برای ساخت رزومهٔ شخصی، صفحهٔ معرفی محصول یا وب‌سایت ایستا باشد. برای قالب آماده و راهنمای مرحله‌به‌مرحله، مخزن [FolioForge](https://github.com/Ali-Banibougeri/folioforge) را ببینید. این مخزن شامل پرامپت‌های آماده و دستورالعمل‌های شخصی‌سازی است.
 
 برای استفادهٔ مجدد، متن‌ها، هویت بصری، پیوندها و اطلاعات شخصی را جایگزین کنید. اگر به قابلیت‌های آنلاین نیاز ندارید، می‌توانید بخش‌های وابسته به Supabase را حذف کنید و صفحات ایستا را نگه دارید. پیش از انتشار، نمایش موبایل، دسترس‌پذیری، پیوندها و نگارش فارسی را بررسی کنید.
 
@@ -153,7 +153,7 @@ See the directory tree in the Persian section above. Main entry points:
 - `assets/site-api.js` — browser API client and visit tracking.
 - `assets/site-config.js` — public browser configuration.
 - `supabase/functions/arcade-api/index.ts` — server-side API.
-- `docs/folioforge/` — design and reuse guides.
+- [FolioForge](https://github.com/Ali-Banibougeri/folioforge) — reusable résumé starter and customization guides.
 
 ### Stack
 
@@ -211,7 +211,7 @@ Replace placeholders with your own settings. Never commit real secrets to source
 
 ### Reuse this project
 
-Use this repository as a starting point for a personal résumé, product landing page or lightweight static website. Prompt examples and review checklists are available in [docs/folioforge/prompts](./docs/folioforge/prompts/).
+Use this repository as a starting point for a personal résumé, product landing page or lightweight static website. Prompt examples and review checklists are available in [FolioForge](https://github.com/Ali-Banibougeri/folioforge).
 
 Replace the identity, copy, links and personal details before publishing. Remove Supabase-dependent parts if online features are unnecessary. Before release, review mobile layouts, accessibility, links and Persian typography.
 
