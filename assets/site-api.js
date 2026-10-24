@@ -115,6 +115,7 @@
       head.className = "comment-card-head";
       const name = document.createElement("strong");
       name.className = "comment-author";
+      name.dir = "auto";
       name.textContent = String(comment.display_name || t("Guest", "مهمان")).slice(0, 18);
       const date = document.createElement("time");
       date.className = "comment-date";
@@ -124,6 +125,7 @@
       head.append(name, date);
       const body = document.createElement("p");
       body.className = "comment-text";
+      body.dir = "auto";
       body.textContent = String(comment.message || "");
       card.append(head, body);
       list.append(card);
