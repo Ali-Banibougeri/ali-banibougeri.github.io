@@ -147,8 +147,6 @@
     "Choose a game":"انتخاب بازی",
     "← Back to résumé":"← بازگشت به رزومه",
     "A little corner of the internet for the classic games that made a few pixels feel like an entire universe. Pick a game, chase a high score, and leave a little nostalgia behind.":"گوشه‌ای کوچک از اینترنت برای بازی‌های کلاسیکی که چند پیکسل را به یک جهان کامل تبدیل می‌کردند. بازی‌ات را انتخاب کن، دنبال رکورد برو و کمی نوستالژی به‌جا بگذار.",
-    "Jump":"پرش",
-    "Fire":"شلیک",
     "Page visits":"بازدیدهای صفحه",
     "Unique visits":"بازدیدهای یکتا",
     "Page visits":"بازدید صفحه","Unique visits (browser/day)":"بازدید یکتا (مرورگر/روز)",
@@ -156,19 +154,6 @@
     "Pause the work.":"کمی از کار فاصله بگیر.","Press play.":"و بازی را شروع کن.",
     "Two classic games. One shared arcade. All signal, no noise.":"دو بازی کلاسیک؛ یک آرکید مشترک. نوستالژی خالص، بدون شلوغی.",
     "01 / Choose your game":"۰۱ / انتخاب بازی","Which memory are we playing?":"کدام خاطره را بازی کنیم؟",
-    "Each game has its own high-score board. Connect the free database once and records for all four games will share one table, filtered by game.":"هر بازی جدول رکورد خودش را دارد. با اتصال یک دیتابیس رایگان، رکورد هر چهار بازی در یک جدول مشترک و به تفکیک بازی ذخیره می‌شود.",
-    "Breakout — Brick Breaker":"بریک‌اوت — شکستن آجرها",
-    "Bounce the ball, break every brick, and keep the rally alive.":"توپ را برگردان، آجرها را بشکن و نگذار توپ بیفتد.",
-    "PLAY BREAKOUT ↗":"شروع بریک‌اوت ↗",
-    "PAC-MAN — MAZE CHASE":"پک‌من — تعقیب در هزارتو",
-    "Pac-Man — Maze Chase":"پک‌من — تعقیب در هزارتو",
-    "Collect every dot and dodge the ghosts in a tiny maze.":"همه نقطه‌ها را جمع کن و در هزارتو از روح‌ها فرار کن.",
-    "PLAY PAC-MAN ↗":"شروع پک‌من ↗",
-    "Collect dots and avoid the ghosts.":"نقطه‌ها را جمع کن و از روح‌ها دوری کن.",
-    "Use arrow keys or WASD to navigate the maze. Collect every dot.":"با کلیدهای جهت یا WASD حرکت کن و همه نقطه‌ها را جمع کن.",
-    "Move the paddle with Left/Right or A/D. Keep the ball in play.":"صفحه را با چپ/راست یا A/D حرکت بده و توپ را در بازی نگه دار.",
-    "Four classic games. One shared arcade. All signal, no noise.":"چهار بازی کلاسیک، یک آرکید مشترک؛ فقط بازی و خاطره.",
-    "Each game has its own high-score board. Connect the database once and records for all four games share one table, filtered by game.":"هر بازی جدول رکورد جداگانه دارد؛ رکورد هر چهار بازی در یک دیتابیس مشترک و بر اساس بازی تفکیک می‌شود.",
     "Snake — Pocket Classic":"مار — کلاسیک جیبی","A mint bonus appears at random. Eat it before it vanishes for +30 points.":"غذای ویژهٔ فیروزه‌ای تصادفی ظاهر می‌شود؛ پیش از ناپدید شدن آن را بخور و ۳۰ امتیاز بگیر.",
     "One more pixel. One more turn. Try not to eat your own tail.":"یک پیکسل دیگر، یک دور دیگر؛ فقط دم خودت را نخور!",
     "PLAY SNAKE ↗":"شروع مار ↗","ARROWS / WASD":"جهت‌ها / WASD",
@@ -183,12 +168,11 @@
     "Use a nickname, not private contact details. Names and scores may be public.":"از نام مستعار استفاده کن و اطلاعات تماس خصوصی ننویس. نام و امتیاز ممکن است عمومی باشد.",
     "LOCAL MODE · Records are saved in this browser only until shared storage is configured.":"حالت محلی · تا زمان اتصال دیتابیس، رکوردها فقط در همین مرورگر ذخیره می‌شوند.",
     "Shared scoreboard setup:":"راه‌اندازی جدول رکورد مشترک:","database setup SQL":"فایل SQL راه‌اندازی دیتابیس","repository guide":"راهنمای مخزن","to turn on shared records.":"برای فعال‌سازی رکوردهای مشترک.",
-    "© Ali Bani Bougeri · A Little Intermission":"© علی بنی‌بوگری · وقفه‌ای کوتاه","Made for nostalgia, not productivity. ↗":"برای نوستالژی، نه بهره‌وری. ↗","Return to résumé":"بازگشت به رزومه",
+    "© Ali Bani Bougeri · A Little Intermission":"© علی بنی‌بوگری · وقفه‌ای کوتاه",
     "Left/Right to move, Down to soft-drop, Up/W to rotate, Space to hard-drop.":"چپ/راست برای حرکت، پایین برای سقوط سریع، بالا/W برای چرخاندن و فاصله برای سقوط فوری.",
     "Clear lines to score; higher scores fall faster.":"با کامل‌کردن خط‌ها امتیاز بگیر؛ هرچه امتیازت بیشتر شود، قطعه‌ها سریع‌تر می‌افتند.","Left/Right to move, Down to soft-drop, Up/W to rotate, Space to hard-drop.":"چپ/راست برای حرکت، پایین برای سقوط سریع، بالا/W برای چرخاندن و فاصله برای سقوط فوری.",
     "PLAYING — GOOD LUCK!":"بازی شروع شد — موفق باشی!","PAUSED — PRESS START":"مکث — برای ادامه شروع را بزن",
-    "GAME OVER":"پایان بازی","GAME OVER — SCORE ":"پایان بازی — امتیاز ","LEVEL CLEAR — SCORE ":"مرحله کامل شد — امتیاز ",
-    "TANK DESTROYED — SCORE ":"تانک منهدم شد — امتیاز ","ARENA CLEAR — SCORE ":"میدان پاک‌سازی شد — امتیاز ",
+    "GAME OVER":"پایان بازی","GAME OVER — SCORE ":"پایان بازی — امتیاز ",
     "RECORD SAVED LOCALLY":"رکورد به‌صورت محلی ذخیره شد","RECORD SAVED TO SHARED BOARD":"رکورد در جدول مشترک ذخیره شد",
     "REMOTE SAVE FAILED — SAVED LOCALLY":"ذخیره مشترک ناموفق بود؛ رکورد محلی ذخیره شد",
     "No records yet. Claim the first place!":"هنوز رکوردی نیست؛ اولین نفر باش!","No records yet on this browser.":"هنوز در این مرورگر رکوردی ثبت نشده.",
@@ -275,8 +259,8 @@
       :(current==="fa"?"علی بنی‌بوگری | مهندس هوش مصنوعی کاربردی و پایتون":"Ali Bani Bougeri | Applied AI & Python Engineer");
     const desc=document.querySelector('meta[name="description"]');
     const description=current==="fa"
-      ?(isArcade?"وقفه‌ای کوتاه؛ یک آرکید ساده با بازی مار، غذای ویژه موقت و تتریس.":"رزومه علی بنی‌بوگری؛ مهندس پایتون و هوش مصنوعی کاربردی با تمرکز بر LLM/RAG، خط لوله داده و اتوماسیون صنعتی، همراه با تجربه در نفت و عملیات حفاری.")
-      :(isArcade?"A Little Intermission — play Snake with temporary bonus food or Tetris, and chase your high score.":"Ali Bani Bougeri is an applied AI and Python engineer building LLM/RAG prototypes, data pipelines and automation tools, with experience in petroleum and drilling operations.");
+      ?(isArcade?"وقفه‌ای کوتاه؛ بازی مار و تتریس، ثبت رکورد و گذاشتن یادداشت در دفتر نظرات.":"رزومه علی بنی‌بوگری؛ مهندس پایتون و هوش مصنوعی کاربردی با تمرکز بر LLM/RAG، خط لوله داده و اتوماسیون صنعتی، همراه با تجربه در نفت و عملیات حفاری.")
+      :(isArcade?"A Little Intermission — play Snake and Tetris, set a high score, and leave a note in the guestbook.":"Ali Bani Bougeri is an applied AI and Python engineer building LLM/RAG prototypes, data pipelines and automation tools, with experience in petroleum and drilling operations.");
     if(desc)desc.content=description;
     const ogTitle=document.querySelector('meta[property="og:title"]');
     if(ogTitle)ogTitle.content=document.title;
