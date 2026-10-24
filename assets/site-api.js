@@ -108,7 +108,7 @@
         if (saved) nameInput.value = saved;
       }
     }
-    function addComment(comment, prepend) {
+    function addComment(comment) {
       const card = document.createElement("article");
       card.className = "comment-card";
       const head = document.createElement("div");
@@ -126,7 +126,7 @@
       body.className = "comment-text";
       body.textContent = String(comment.message || "");
       card.append(head, body);
-      if (prepend) list.prepend(card); else list.append(card);
+      list.append(card);
     }
     function renderComments() {
       list.replaceChildren();
@@ -134,7 +134,7 @@
       count.textContent = new Intl.NumberFormat(isFa() ? "fa-IR" : "en-US").format(comments.length) +
         t(" notes", " نظر");
       if (!comments.length) return;
-      comments.forEach(comment => addComment(comment, false));
+      comments.forEach(addComment)
     }
     async function loadComments() {
       if (!configured) {
